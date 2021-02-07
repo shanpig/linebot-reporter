@@ -37,7 +37,6 @@ firebase.auth().signInWithEmailAndPassword("shanpigliao@gmail.com", process.env.
 bot.on('message', (e)=>{
   let message = e.message.text;
   console.log(message);
-  console.log('hiiiii')
   e.reply(message);
 })
 
