@@ -40,6 +40,6 @@ bot.on('message', (e)=>{
   e.reply(message);
 })
 
-bot.listen('/linewebhook', 3000, ()=>{
+bot.listen('/linewebhook', process.env.PORT, ()=>{
   console.log('準備就緒');
 })
